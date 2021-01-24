@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+<h1> {{ title_name }} </h1>
+
+</br>
+
+<!-- <h2> {{ error_statement}} </h2> -->
+<form action="" method="POST">
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+
+    <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Your comment</label>
+        <textarea class="form-control" name="comment" id="exampleFormControlTextarea1" rows="3"  placeholder="Tell us a bit about you"></textarea>
+    </div>
+
+    <div class="mb-3">
+        <button class="btn btn-primary" type="submit">Submit form</button>
+    </div>
+
+
+</form>
+
+{% endblock %}
+ 
+
+
+
+
+
+
+

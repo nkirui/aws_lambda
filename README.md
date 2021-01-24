@@ -8,16 +8,17 @@
 1. clone/download the project into the directory of your choice
 2. Activate your virtual environment, for this case we use Pipenv
 
-        $ pipenv install
-        $ pipenv shell
+    `$ pipenv install`
+    `$ pipenv shell`
 
 3. To launch application
-      $ export FLASK_APP=main.py
-      $ flask run
+
+     `$ export FLASK_APP=main.py`
+      `$ flask run`
 
     or:
 
-    $ python main.py
+    $ `python main.py`
 
 4. Head to https://localhost:5000
 - if it works!, well done, next we deploy it to GAE
@@ -53,7 +54,7 @@
 11. Use `cd your-dir` and `gcloud app deploy app.yml`
 12. Finally follow the prompts to get the url ,and that is all for your setup, next is to detail the process for automation in the *aws lambda*
 
-## AUTOMATION IN AWS
+## AUTOMATION IN AWS GUIDE
 
 
 

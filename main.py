@@ -13,7 +13,6 @@ password = config("EMAIL_HOST_PASSWORD")
 notification_email = config("EMAIL_NOTIFICATION")
 
 
-
 Bootstrap(app)
 
 
@@ -59,5 +58,6 @@ def email_alert():
         raise ValueError("invalid email")
 
 
+if __name__ == '__main__':
+    app.run(port=5000)
 
-app.run(port=5000)

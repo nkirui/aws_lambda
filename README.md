@@ -30,6 +30,6 @@ This was the old [README.md](Old-Source/README.md)
 
 `terraform apply -auto-approve`
 
-## Next Todo
+## Next Up
 
 - CI/CD
